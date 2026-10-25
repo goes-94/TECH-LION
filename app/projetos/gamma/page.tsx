@@ -9,7 +9,7 @@ export default function GammaPage() {
         {/* Lado Esquerdo: Imagem */}
         <div className="w-full md:w-1/2 flex justify-center">
           <img 
-            src='/landing-page.png' 
+            src='/landing-page.webp' 
             alt="Foto do Projeto"
             width={300}
             height={100}

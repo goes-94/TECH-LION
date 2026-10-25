@@ -9,7 +9,7 @@ export default function DeltaPage() {
         {/* Lado Esquerdo: Imagem */}
         <div className="w-full md:w-1/2 flex justify-center">
           <img 
-            src='/Apresentacao-Tech-Lion+Juan.png' 
+            src='/Apresentacao-Tech-Lion+Juan.webp' 
             alt="Foto do Projeto"
             width={600}
             height={500}
