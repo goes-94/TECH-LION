@@ -8,7 +8,7 @@ export default function BetaPage() {
         {/* Lado Esquerdo: Imagem */}
         <div className="w-full md:w-1/2 flex justify-center">
           <img 
-            src='/ilustration-Pizzaria.png' 
+            src="/Ilustration-Pizzaria.png" 
             alt="Foto do Projeto"
             width={600}
             height={500}
@@ -41,7 +41,7 @@ export default function BetaPage() {
                 <strong className="text-white">Pedidos sem Atrito:</strong>Do pedido à entrega: uma jornada sincronizada entre estoque e equipe.
             </p>
 
-            <a className="px-36 py-3 border-2 border-[#FFD700] text-[#FFD700] font-semibold hover:bg-[#FFD700] hover:text-[#0a0f1e] transition-all duration-300 ease-in-out rounded-x1" href="https://wa.me/5541995948068? text=Olá,%20gostaria%20de%20solicitar%20uma%20pré-visualização%20do%20projeto%20ALPHA." target="_blank">Solicitar Pré-Visualização</a>
+            <a className="px-34 py-3 border-2 border-[#FFD700] text-[#FFD700] font-semibold hover:bg-[#FFD700] hover:text-[#0a0f1e] transition-all duration-300 ease-in-out rounded-x1" href="https://wa.me/5541995948068? text=Olá,%20gostaria%20de%20solicitar%20uma%20pré-visualização%20do%20projeto%20ALPHA." target="_blank">Solicitar Pré-Visualização</a>
 
         </div>
         
