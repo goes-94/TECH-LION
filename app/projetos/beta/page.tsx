@@ -23,7 +23,6 @@ export default function BetaPage() {
             A Inteligência que seu negócio precisa, a sofisticação que seu cliente merece.
           </p>
           <p className="text-gray-400">
-            Conteúdo do projeto Alpha sendo renderizado com organização e elegância.
           </p>
           <p className="text-gray-400">
             <strong className="text-white">Caixa Integrado:</strong> Integre seu caixa, automatize pedidos e centralize sua gestão em um ecossistema blindado e intuitivo.

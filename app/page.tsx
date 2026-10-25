@@ -29,17 +29,17 @@ export default function Home() {
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-5.5" id='projetos'>
         <ProjetoCard 
           titulo="PROJETO ALPHA" 
-          descricao="Arquitetura escalável com foco em performance."
+          descricao="Gestão inteligente para otimização de processos e máxima rentabilidade."
           link="/projetos/alpha" 
         />
         <ProjetoCard 
           titulo="PROJETO BETA" 
-          descricao="Sistema de IA integrado com processamento em tempo real."
+          descricao="Sincronia em tempo real entre vendas, pedidos e o núcleo do seu negócio."
           link="/projetos/beta"
         />
         <ProjetoCard 
           titulo="PROJETO GAMMA" 
-          descricao="Sistema de IA integrado com processamento em tempo real."
+          descricao="Landing pages de alto impacto: autoridade digital e conversão inteligente."
           link='/projetos/gamma' 
         />
         <ProjetoCard 
@@ -87,7 +87,7 @@ export default function Home() {
         </div>
       </section>
 
-      <section className="py-24 px-6 max-w-7xl mx-auto flex flex-col md:flex-row gap-12 items-center">
+      <section className="py-24 px-6 max-w-7xl mx-auto flex flex-col md:flex-row gap-12 items-center" id='tecnologia'>
         {/* Lado Esquerdo: Visual com Glow */}
         <div className="relative w-full md:w-1/2 group transition-transform duration-300 hover:scale-110">
           <div className="absolute inset-0 bg-[#FFD700] blur-3xl opacity-10 rounded-full"></div>
@@ -119,7 +119,7 @@ export default function Home() {
       <section className="py-24 max-w-7xl mx-auto">
         <h2 className="text-3xl font-bold text-center text-white mb-16">Nossa Metodologia de Sucesso</h2>
         
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8" id='metodologia'>
           {[
             { step: "01", title: "Imersão Estratégica", desc: "Análise profunda das suas necessidades e gargalos operacionais." },
             { step: "02", title: "Desenvolvimento Ágil", desc: "Ciclos de entrega rápidos, focados em valor real e alta performance." },

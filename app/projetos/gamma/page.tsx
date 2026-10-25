@@ -24,7 +24,6 @@ export default function GammaPage() {
             Onde a primeira impressão se torna sua maior vantagem competitiva.
           </p>
           <p className="text-gray-400">
-            Conteúdo do projeto Alpha sendo renderizado com organização e elegância.
           </p>
           <p className="text-gray-400">
             <strong className="text-white">Presença de Autoridade:</strong>Sua marca online profissionalizada, transmitindo confiança imediata em cada pixel.
