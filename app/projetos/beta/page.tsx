@@ -1,3 +1,4 @@
+import Copyright from "@/components/copyright";
 export default function BetaPage() {
   return (
     <div className="min-h-screen bg-[#0a0f1e] text-white p-10">
@@ -90,8 +91,9 @@ export default function BetaPage() {
         </div>
 
         {/* Copyright */}
+        {/*import Copyright from '@/components/Copyright';*/}
         <div className="max-w-7xl mx-auto mt-20 pt-8 border-t border-[#FFD700]/10 text-center text-gray-500 text-sm">
-          © {new Date().getFullYear()} TechLion Solutions. Todos os direitos reservados.
+        <Copyright />
         </div>
       </footer>
 
