@@ -44,7 +44,7 @@ export default function Home() {
         />
         <ProjetoCard 
           titulo="PROJETO DELTA" 
-          descricao="Sistema de IA integrado com processamento em tempo real."
+          descricao="Aplicativos sob medida que entregam uma experiência de uso intuitiva."
           link='/projetos/delta'
         />
           {/* Pode adicionar quantos quiser aqui */}
@@ -163,7 +163,7 @@ export default function Home() {
           <div>
             <h4 className="text-[#FFD700] font-bold mb-6 uppercase tracking-wider text-sm">Contato</h4>
             <ul className="space-y-4 text-gray-400">
-              <li>Curitiba PR, BR</li>
+              <li className='text-white'>Curitiba PR, BR</li>
               <li ><a href='mailto:techlion@gmail.com' target='_blank' className=' underline text-white hover:text-[#FFD700] transition-colors '> contato@techlion.com.br</a></li>
               <li className="pt-2">
                 <a href="https://wa.me/5541995948068? 

@@ -8,7 +8,7 @@ export default function BetaPage() {
         {/* Lado Esquerdo: Imagem */}
         <div className="w-full md:w-1/2 flex justify-center">
           <img 
-            src="/Ilustration-Pizzaria.png" 
+            src="/comercial-img-pizzaria.webp" 
             alt="Foto do Projeto"
             width={600}
             height={500}

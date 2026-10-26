@@ -9,7 +9,7 @@ export default function DeltaPage() {
         {/* Lado Esquerdo: Imagem */}
         <div className="w-full md:w-1/2 flex justify-center">
           <img 
-            src='/Apresentacao-Tech-Lion+Juan.webp' 
+            src='/app-mobile.jpg' 
             alt="Foto do Projeto"
             width={600}
             height={500}
@@ -21,24 +21,24 @@ export default function DeltaPage() {
         <div className="w-full md:w-1/2 flex flex-col justify-center text-left gap-2">
           <h1 className="text-5xl font-bold text-[#FFD700] mb-6">PROJETO DELTA</h1>
           <p className="text-xl text-gray-300 mb-4">
-            A Inteligência que seu negócio precisa, a sofisticação que seu cliente merece.
+            A tecnologia mobile que seu negócio exige, a usabilidade que seu dia a dia precisa.
           </p>
           <p className="text-gray-400">
           </p>
           <p className="text-gray-400">
-            <strong className="text-white">Caixa Integrado:</strong> Integre seu caixa, automatize pedidos e centralize sua gestão em um ecossistema blindado e intuitivo.
+            <strong className="text-white">Mobilidade Sob Medida:</strong>Aplicativos nativos e intuitivos, desenhados para colocar a gestão do seu negócio na palma da sua mão.
           </p>
           <p className="text-gray-400">
-            <strong className="text-white">Gestão Fluida:</strong> Dashboards em tempo real que transformam números complexos em decisões estratégicas.</p>
+            <strong className="text-white">Interface Sofisticada:</strong>Design de elite que reflete a modernidade da sua marca e eleva a percepção do seu cliente.</p>
 
             <p className="text-gray-400">
-                <strong className="text-white">Conformidade total:</strong> Segurança em conformidade com as normas fiscais mais rigorosas.
+                <strong className="text-white">Fluxo Sem Barreiras:</strong>Acesso rápido às funcionalidades vitais, eliminando etapas desnecessárias e poupando tempo precioso.
             </p>
             <p className="text-gray-400">
-                <strong className="text-white">Caixa Inteligente:</strong>Conciliação automática que elimina erros humanos e maximiza sua rentabilidade.
+                <strong className="text-white">Integração Total:</strong>Sincronia perfeita com seu sistema principal, garantindo que a informação no computador seja a mesma no App.
             </p>
             <p className="text-gray-400">
-                <strong className="text-white">Pedidos sem Atrito:</strong>Do pedido à entrega: uma jornada sincronizada entre estoque e equipe.
+                <strong className="text-white">Engajamento Constante:</strong>Uma experiência fluida que transforma cada interação em um diferencial competitivo para sua empresa.
             </p>
 
             <a className="px-36 py-3 border-2 border-[#FFD700] text-[#FFD700] font-semibold hover:bg-[#FFD700] hover:text-[#0a0f1e] transition-all duration-300 ease-in-out rounded-x1" href="https://wa.me/5541995948068? text=Olá,%20gostaria%20de%20solicitar%20uma%20pré-visualização%20do%20projeto%20ALPHA." target="_blank">Solicitar Pré-Visualização</a>
