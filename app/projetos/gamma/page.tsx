@@ -41,11 +41,10 @@ export default function GammaPage() {
                 <strong className="text-white">Identidade Visual Premium:</strong>Design alinhado ao posicionamento do seu negócio, unindo estética sofisticada à sua essência de marca.
             </p>
 
-            <p className="text-gray-400">
-                <strong className="text-white">Pré-Visualização:</strong><a className="text-center px-2 text-[#FFD700]" href="https://site-restaurante-red.vercel.app/"><strong>Visualizar Prévia</strong></a>
-            </p>
+            <a className="px- text-center py-2 border-2 border-[#FFD700] text-[#FFD700] font-semibold hover:bg-[#FFD700] hover:text-[#0a0f1e] transition-all duration-300 ease-in-out rounded-x1" href="https://site-restaurante-red.vercel.app/" target="_blank">Pré-Visualização</a>
 
-            <a className="px- text-center py-3 border-2 border-[#FFD700] text-[#FFD700] font-semibold hover:bg-[#FFD700] hover:text-[#0a0f1e] transition-all duration-300 ease-in-out rounded-x1" href="https://wa.me/5541995948068? text=Olá,%20gostaria%20de%20solicitar%20uma%20pré-visualização%20do%20projeto%20GAMMA." target="_blank">Solicitar Pré-Visualização</a>
+
+            <a className="px- text-center py-3 border-2 border-[#FFD700] text-[#FFD700] font-semibold hover:bg-[#FFD700] hover:text-[#0a0f1e] transition-all duration-300 ease-in-out rounded-x1" href="https://wa.me/5541995948068? text=Olá,%20gostaria%20de%20solicitar%20uma%20pré-visualização%20do%20projeto%20GAMMA." target="_blank">Solicitar Via Whatsapp</a>
 
         </div>
         

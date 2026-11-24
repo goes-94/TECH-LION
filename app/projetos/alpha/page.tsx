@@ -39,11 +39,10 @@ export default function AlphaPage() {
                 <strong className="text-white">Conformidade & Segurança:</strong>Segurança de alto nível, operando dentro das normas fiscais mais rigorosas do mercado.
             </p>
 
-            <p className="text-gray-400">
-                <strong className="text-white">Pré-Visualização:</strong><a className="text-center px-2 text-[#FFD700]" href="https:///pedidos-delivery-nine.vercel.app/"><strong>Visualizar Prévia</strong></a>
-            </p>
+            <a className="px- text-center py-2 border-2 border-[#FFD700] text-[#FFD700] font-semibold hover:bg-[#FFD700] hover:text-[#0a0f1e] transition-all duration-300 ease-in-out rounded-x1" href="https://pedidos-delivery-nine.vercel.app/" target="_blank">Pré-Visualização</a>
 
-            <a className="px- text-center py-2 border-2 border-[#FFD700] text-[#FFD700] font-semibold hover:bg-[#FFD700] hover:text-[#0a0f1e] transition-all duration-300 ease-in-out rounded-x1" href="https://wa.me/5541995948068? text=Olá,%20gostaria%20de%20solicitar%20uma%20pré-visualização%20do%20projeto%20ALPHA." target="_blank">Solicitar Pré-Visualização</a>
+
+            <a className="px- text-center py-2 border-2 border-[#FFD700] text-[#FFD700] font-semibold hover:bg-[#FFD700] hover:text-[#0a0f1e] transition-all duration-300 ease-in-out rounded-x1" href="https://wa.me/5541995948068? text=Olá,%20gostaria%20de%20solicitar%20uma%20pré-visualização%20do%20projeto%20ALPHA." target="_blank">Solicitar Via Whatsaap</a>
 
         </div>
         
