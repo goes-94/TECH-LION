@@ -5,10 +5,11 @@ import Link from "next/link";
 interface ProjetoProps {
   titulo: string;
   descricao: string;
+  detalhes: string;
   link: string; 
 }
 
-export function ProjetoCard({ titulo, descricao, link }: ProjetoProps) {
+export function ProjetoCard({ titulo, descricao, detalhes, link }: ProjetoProps) {
   return (
     // Se o erro for no 'link', vamos garantir que ele seja uma string válida
     <Link href={link as string} className="block"> 
@@ -20,6 +21,7 @@ export function ProjetoCard({ titulo, descricao, link }: ProjetoProps) {
         
         <h3 className="text-xl font-bold mb-2 relative z-10">{titulo}</h3>
         <p className="text-gray-400 text-sm mb-6 relative z-10">{descricao}</p>
+        <p className="text-gray-400 text-sm relative z-10 ">{detalhes}</p>
         <div className="mt-10 w-12 h-[2px] bg-cyan-500 group-hover:w-20 transition-all duration-300  " />
       </motion.div>
     </Link>

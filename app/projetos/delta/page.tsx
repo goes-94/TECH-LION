@@ -19,7 +19,7 @@ export default function DeltaPage() {
 
         {/* Lado Direito: Textos (Agora em Coluna) */}
         <div className="w-full md:w-1/2 flex flex-col justify-center text-left gap-2">
-          <h1 className="text-5xl font-bold text-[#FFD700] mb-6">PROJETO DELTA</h1>
+          <h1 className="text-5xl font-bold text-[#FFD700] mb-6">AGENDA VIVA</h1>
           <p className="text-xl text-gray-300 mb-4">
             A tecnologia mobile que seu negócio exige, a usabilidade que seu dia a dia precisa.
           </p>
@@ -41,7 +41,11 @@ export default function DeltaPage() {
                 <strong className="text-white">Engajamento Constante:</strong>Uma experiência fluida que transforma cada interação em um diferencial competitivo para sua empresa.
             </p>
 
-            <a className="px-36 py-3 border-2 border-[#FFD700] text-[#FFD700] font-semibold hover:bg-[#FFD700] hover:text-[#0a0f1e] transition-all duration-300 ease-in-out rounded-x1" href="https://wa.me/5541995948068? text=Olá,%20gostaria%20de%20solicitar%20uma%20pré-visualização%20do%20projeto%20ALPHA." target="_blank">Solicitar Pré-Visualização</a>
+            <p className="text-gray-400">
+                <strong className="text-white">Pré-Visualização:</strong><a className="text-center px-2 text-[#FFD700]" href="https://projetodelta-flame.vercel.app/"><strong>Visualizar Prévia</strong></a>
+            </p>
+
+            <a className="px- text-center py-3 border-2 border-[#FFD700] text-[#FFD700] font-semibold hover:bg-[#FFD700] hover:text-[#0a0f1e] transition-all duration-300 ease-in-out rounded-x1" href="https://wa.me/5541995948068? text=Olá,%20gostaria%20de%20solicitar%20uma%20pré-visualização%20do%20projeto%20ALPHA." target="_blank">Solicitar Pré-Visualização</a>
 
         </div>
         

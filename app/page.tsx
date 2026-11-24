@@ -28,23 +28,27 @@ export default function Home() {
        
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 px-5.5" id='projetos'>
         <ProjetoCard 
-          titulo="PROJETO ALPHA" 
+          titulo="ALPHA GESTÃO" 
           descricao="Gestão inteligente para otimização de processos e máxima rentabilidade."
+          detalhes='Ver Mais'
           link="/projetos/alpha" 
         />
         <ProjetoCard 
-          titulo="PROJETO BETA" 
+          titulo="ROTA DO PEDIDO" 
           descricao="Sincronia em tempo real entre vendas, pedidos e o núcleo do seu negócio."
+          detalhes='Ver Mais'
           link="/projetos/beta"
         />
         <ProjetoCard 
-          titulo="PROJETO GAMMA" 
+          titulo="LANDING PAGE" 
           descricao="Landing pages de alto impacto: autoridade digital e conversão inteligente."
+          detalhes='Ver Mais'
           link='/projetos/gamma' 
         />
         <ProjetoCard 
-          titulo="PROJETO DELTA" 
+          titulo="AGENDA VIVA" 
           descricao="Aplicativos sob medida que entregam uma experiência de uso intuitiva."
+          detalhes='Ver Mais'
           link='/projetos/delta'
         />
           {/* Pode adicionar quantos quiser aqui */}

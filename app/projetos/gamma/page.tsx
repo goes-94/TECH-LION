@@ -19,7 +19,7 @@ export default function GammaPage() {
 
         {/* Lado Direito: Textos (Agora em Coluna) */}
         <div className="w-full md:w-1/2 flex flex-col justify-center text-left gap-2">
-          <h1 className="text-5xl font-bold text-[#FFD700] mb-6">PROJETO GAMMA</h1>
+          <h1 className="text-5xl font-bold text-[#FFD700] mb-6">LANDING PAGE</h1>
           <p className="text-xl text-gray-300 mb-4">
             Onde a primeira impressão se torna sua maior vantagem competitiva.
           </p>
@@ -41,7 +41,11 @@ export default function GammaPage() {
                 <strong className="text-white">Identidade Visual Premium:</strong>Design alinhado ao posicionamento do seu negócio, unindo estética sofisticada à sua essência de marca.
             </p>
 
-            <a className="px-36 py-3 border-2 border-[#FFD700] text-[#FFD700] font-semibold hover:bg-[#FFD700] hover:text-[#0a0f1e] transition-all duration-300 ease-in-out rounded-x1" href="https://wa.me/5541995948068? text=Olá,%20gostaria%20de%20solicitar%20uma%20pré-visualização%20do%20projeto%20GAMMA." target="_blank">Solicitar Pré-Visualização</a>
+            <p className="text-gray-400">
+                <strong className="text-white">Pré-Visualização:</strong><a className="text-center px-2 text-[#FFD700]" href="https://site-restaurante-red.vercel.app/"><strong>Visualizar Prévia</strong></a>
+            </p>
+
+            <a className="px- text-center py-3 border-2 border-[#FFD700] text-[#FFD700] font-semibold hover:bg-[#FFD700] hover:text-[#0a0f1e] transition-all duration-300 ease-in-out rounded-x1" href="https://wa.me/5541995948068? text=Olá,%20gostaria%20de%20solicitar%20uma%20pré-visualização%20do%20projeto%20GAMMA." target="_blank">Solicitar Pré-Visualização</a>
 
         </div>
         
